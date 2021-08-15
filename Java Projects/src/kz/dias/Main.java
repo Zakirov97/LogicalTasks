@@ -1,6 +1,7 @@
 package kz.dias;
 
 import kz.dias.arrays_left_rotations.ArraysLeftRotation;
+import kz.dias.bill_division.BillDivision;
 import kz.dias.the_power_sum.ThePowerSum;
 
 import java.util.ArrayList;
@@ -12,6 +13,9 @@ public class Main {
         
         //ThePowerSum.powerSum(100, 2);
         //ArraysLeftRotation.rotLeft(new ArrayList<>(List.of(1,2,3,4,5)), 7);
-        System.out.println("sad");
+        BillDivision.bonAppetit(new ArrayList<>(List.of(3, 10, 2, 9)),1,12);
+        
+        
+        //System.out.println("sad");
     }
 }
