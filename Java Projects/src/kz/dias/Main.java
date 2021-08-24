@@ -1,5 +1,6 @@
 package kz.dias;
 
+import kz.dias.jumping_on_the_clouds_revisited.JumpingOnTheCloudsRevisited;
 import kz.dias.sequence_equation.kz.dias.SequenceEquation;
 
 import java.lang.reflect.Array;
@@ -26,7 +27,9 @@ public class Main {
         //System.out.println(ViralAdvertising.viralAdvertising(5));
         //System.out.println(SaveThePrisoner.saveThePrisoner(13, 140874526, 1));
         //System.out.println(CircularArrayRotation.circularArrayRotation(List.of(1, 2, 3, 4, 5, 6), 9, List.of(0, 1, 2, 3, 4, 5)));
-        System.out.println(SequenceEquation.permutationEquation(List.of(4, 3, 5, 1, 2)));
+        //System.out.println(SequenceEquation.permutationEquation(List.of(4, 3, 5, 1, 2)));
+        System.out.println(JumpingOnTheCloudsRevisited.jumpingOnClouds(new int[]{1, 1, 1, 0, 1, 1, 0, 0, 0, 0}, 3));
+        
         
         //System.out.println("sad");
     }
