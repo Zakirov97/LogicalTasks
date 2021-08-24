@@ -14,6 +14,7 @@ public class SequenceEquation {
         for (int i = 1; i <= p.size(); i++) {
             res.add(map.get(map.get(i)));
         }
+        
         return res;
     }
 }
