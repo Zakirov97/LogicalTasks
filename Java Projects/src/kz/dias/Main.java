@@ -1,27 +1,13 @@
 package kz.dias;
 
-import kz.dias.breaking_the_records.BreakingTheRecords;
-import kz.dias.cats_and_a_mouse.CatsAndAMouse;
-import kz.dias.circular_array_rotation.CircularArrayRotation;
-import kz.dias.day_of_the_programmer.DayOfTheProgrammer;
-import kz.dias.divisible_sum_pairs.DivisibleSumPairs;
-import kz.dias.drawing_book.DrawingBook;
-import kz.dias.electronics_shop.ElectronicsShop;
-import kz.dias.migratory_birds.MigratoryBirds;
-import kz.dias.picking_numbers.PickingNumbers;
-import kz.dias.save_the_prisoner.SaveThePrisoner;
-import kz.dias.subarray_division.SubarrayDivision;
-import kz.dias.utopian_tree.UtopianTree;
-import kz.dias.viral_advertising.ViralAdvertising;
+import kz.dias.sequence_equation.kz.dias.SequenceEquation;
 
 import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
     
     public static void main(String[] args) {
-        
         //ThePowerSum.powerSum(100, 2);
         //ArraysLeftRotation.rotLeft(new ArrayList<>(List.of(1,2,3,4,5)), 7);
         //BillDivision.bonAppetit(new ArrayList<>(List.of(3, 10, 2, 9)),1,12);
@@ -40,7 +26,7 @@ public class Main {
         //System.out.println(ViralAdvertising.viralAdvertising(5));
         //System.out.println(SaveThePrisoner.saveThePrisoner(13, 140874526, 1));
         //System.out.println(CircularArrayRotation.circularArrayRotation(List.of(1, 2, 3, 4, 5, 6), 9, List.of(0, 1, 2, 3, 4, 5)));
-        
+        System.out.println(SequenceEquation.permutationEquation(List.of(4, 3, 5, 1, 2)));
         
         //System.out.println("sad");
     }
